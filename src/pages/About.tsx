@@ -179,47 +179,7 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Experience Highlights */}
-      <section className="py-16 bg-gradient-to-r from-primary-50 to-secondary-50">
-        <div className="container-max section-padding">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="text-center space-y-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-secondary-900">
-              Professional Highlights
-            </h2>
-            
-            <div className="grid md:grid-cols-3 gap-8">
-              {[
-                { number: '3.92', label: 'GPA at Loyola Chicago', icon: '🎓' },
-                { number: '$1M+', label: 'Project Value Led at Amazon', icon: '💼' },
-                { number: '200+', label: 'Employees Supervised', icon: '👥' }
-              ].map((stat, index) => (
-                <motion.div
-                  key={stat.label}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  className="bg-white rounded-2xl shadow-lg p-8 text-center space-y-4"
-                >
-                  <div className="text-4xl">{stat.icon}</div>
-                  <div className="text-3xl md:text-4xl font-bold text-primary-600">
-                    {stat.number}
-                  </div>
-                  <div className="text-lg font-medium text-secondary-700">
-                    {stat.label}
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
-        </div>
-      </section>
+
     </div>
   );
 };

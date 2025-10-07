@@ -14,7 +14,7 @@ export const projects: Project[] = [
     id: '2',
     type: 'powerbi',
     title: 'Space Missions Analytics',
-    description: 'Interactive dashboard exploring space mission data, analyzing mission success rates, costs, and trends over time. Provides insights into space exploration patterns and mission outcomes across different space agencies.',
+    description: 'Interactive report exploring space mission data, analyzing mission success rates, costs, and trends over time. Provides insights into space exploration patterns and mission outcomes across different space agencies.',
     tech: ['Power BI', 'DAX', 'Data Visualization', 'Statistical Analysis'],
     embedUrl: 'https://app.powerbi.com/view?r=eyJrIjoiODYxYTE1NjEtZjI0Ni00MzQ2LWJhNTctNTU3NzZhZmMwYzY3IiwidCI6Ijg3MTA1OGY5LWM4ZGYtNDg0Yi1hYTc4LWM5N2EzYzMyOWZiZSIsImMiOjh9',
     featured: true

@@ -139,9 +139,9 @@ const Home: React.FC = () => {
                   description: 'Comprehensive CRM dashboard with sales KPIs and customer insights'
                 },
                 {
-                  title: 'Airbus AI for HR',
-                  type: 'Python',
-                  description: 'Award-winning ML model to predict employee absenteeism'
+                  title: 'Space Missions Analytics',
+                  type: 'Power BI',
+                  description: 'Interactive dashboard exploring space mission data and success rates'
                 },
                 {
                   title: 'NorthWind Traders BI',
