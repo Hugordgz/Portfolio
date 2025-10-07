@@ -28,4 +28,13 @@ export const projects: Project[] = [
     embedUrl: 'https://app.powerbi.com/view?r=eyJrIjoiMGNhM2QzYzItY2U0MC00ZmUwLWI5ZjEtNDUyYzM2ODQ2NDBlIiwidCI6Ijg3MTA1OGY5LWM4ZGYtNDg0Yi1hYTc4LWM5N2EzYzMyOWZiZSIsImMiOjh9',
     featured: true
   },
+  {
+    id: '4',
+    type: 'python',
+    title: 'BlackJack Game',
+    description: 'Interactive BlackJack card game built with Python featuring classic casino gameplay, card dealing mechanics, and score tracking. Demonstrates object-oriented programming principles and game logic implementation.',
+    tech: ['Python', 'Object-Oriented Programming', 'Game Development'],
+    link: 'https://github.com/Hugordgz/BlackJack_Game',
+    featured: false
+  },
 ];

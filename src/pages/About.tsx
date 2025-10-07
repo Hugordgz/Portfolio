@@ -62,22 +62,13 @@ const About: React.FC = () => {
               </h2>
               <div className="space-y-4 text-lg text-secondary-700 leading-relaxed">
                 <p>
-                  I'm currently pursuing a dual Bachelor's degree in Data and Business Analytics and Business Administration
-                  at Loyola University of Andalusia, Spain, and Loyola University Chicago. With a strong academic foundation
-                  (3.92 GPA at Loyola Chicago, 3.67 GPA in Spain), I've been recognized as Top of Class 2023/2024 with
-                  honors in Accounting, Economy, Data Visualization, and Databases.
+                  I am a double degree student in Business Administration and Data & Business Analytics, currently pursuing my studies between Spain and the United States. Throughout this international journey, I have achieved strong academic results, reflecting my commitment to excellence and my ability to adapt and thrive in diverse learning environments. My path combines business understanding with data-driven decision making, strengthened through hands-on projects and global experience.
                 </p>
                 <p>
-                  My practical experience spans from leading high-impact projects at Amazon's ONT2 Fulfillment Center
-                  valued at $1M+ to conducting cutting-edge AI research at Microsoft's CX department. I've also collaborated
-                  with Airbus on award-winning AI solutions for human resources, creating machine learning models to predict
-                  and prevent employee absenteeism.
+                  I have collaborated with leading tech companies such as Airbus, Microsoft, and Amazon, where I have gained valuable experience in AI applications, customer experience, and strategic analysis. These experiences have strengthened my ability to approach complex problems from both a technical and business perspective.
                 </p>
                 <p>
-                  I'm passionate about leveraging data to solve real-world business problems, whether it's optimizing
-                  operational efficiency, enhancing customer experience through AI, or developing innovative educational
-                  technology solutions. My expertise combines technical skills in Python, SQL, and Power BI with strong
-                  business acumen and leadership capabilities.
+                  Driven by curiosity and continuous learning, I aim to keep expanding my expertise in data strategy, analytics, and innovation. My goal is to build a career that connects data, technology, and human insight to create impactful and sustainable solutions.
                 </p>
               </div>
             </motion.div>
