@@ -21,7 +21,6 @@ export const skills: Skill[] = [
   { name: 'Pandas', category: 'visualization' },
 
   // Analytics
-  { name: 'Machine Learning', category: 'analytics' },
   { name: 'Statistical Analysis', category: 'analytics' },
   { name: 'Linear Regression', category: 'analytics' },
   { name: 'Logistic Regression', category: 'analytics' },
