@@ -25,19 +25,7 @@ const About: React.FC = () => {
     }
   };
 
-  const getLevelColor = (level: string) => {
-    switch (level) {
-      case 'expert': return 'bg-green-500';
-      case 'advanced': return 'bg-blue-500';
-      case 'intermediate': return 'bg-yellow-500';
-      case 'beginner': return 'bg-gray-500';
-      default: return 'bg-gray-500';
-    }
-  };
 
-  const getLevelText = (level: string) => {
-    return level.charAt(0).toUpperCase() + level.slice(1);
-  };
 
   return (
     <div className="min-h-screen bg-secondary-50">
@@ -52,7 +40,7 @@ const About: React.FC = () => {
           >
             <h1 className="text-4xl md:text-5xl font-bold">About Me</h1>
             <p className="text-xl md:text-2xl text-primary-100 max-w-3xl mx-auto">
-              Discover my journey and experiences so far.
+              Discover my journey and experiences so far
             </p>
           </motion.div>
         </div>
@@ -176,19 +164,10 @@ const About: React.FC = () => {
                           whileHover={{ scale: 1.05 }}
                           className="bg-secondary-50 rounded-xl p-4 border border-secondary-200 hover:border-primary-300 transition-all duration-200"
                         >
-                          <div className="flex items-center justify-between">
+                          <div className="text-center">
                             <span className="font-medium text-secondary-900">
                               {skill.name}
                             </span>
-                            <div className="flex items-center space-x-2">
-                              <div
-                                className={`w-3 h-3 rounded-full ${getLevelColor(skill.level)}`}
-                                title={getLevelText(skill.level)}
-                              />
-                              <span className="text-xs text-secondary-600">
-                                {getLevelText(skill.level)}
-                              </span>
-                            </div>
                           </div>
                         </motion.div>
                       ))}

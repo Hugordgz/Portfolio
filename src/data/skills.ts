@@ -8,32 +8,32 @@ export const skills: Skill[] = [
   { name: 'JavaScript', category: 'programming'},
 
   // Database
-  { name: 'Database Design', category: 'database', level: 'advanced' },
-  { name: 'Data Modeling', category: 'database', level: 'advanced' },
-  { name: 'SQL Server', category: 'database', level: 'advanced' },
-  { name: 'MySQL', category: 'database', level: 'intermediate' },
+  { name: 'Database Design', category: 'database' },
+  { name: 'Data Modeling', category: 'database' },
+  { name: 'SQL Server', category: 'database' },
+  { name: 'MySQL', category: 'database' },
 
   // Visualization
-  { name: 'Power BI', category: 'visualization', level: 'expert' },
-  { name: 'Data Visualization', category: 'visualization', level: 'expert' },
-  { name: 'Matplotlib', category: 'visualization', level: 'advanced' },
-  { name: 'Seaborn', category: 'visualization', level: 'advanced' },
-  { name: 'Pandas', category: 'visualization', level: 'advanced' },
+  { name: 'Power BI', category: 'visualization' },
+  { name: 'Data Visualization', category: 'visualization' },
+  { name: 'Matplotlib', category: 'visualization' },
+  { name: 'Seaborn', category: 'visualization' },
+  { name: 'Pandas', category: 'visualization' },
 
   // Analytics
-  { name: 'Machine Learning', category: 'analytics', level: 'advanced' },
-  { name: 'Statistical Analysis', category: 'analytics', level: 'expert' },
-  { name: 'Linear Regression', category: 'analytics', level: 'advanced' },
-  { name: 'Logistic Regression', category: 'analytics', level: 'advanced' },
-  { name: 'Predictive Modeling', category: 'analytics', level: 'advanced' },
-  { name: 'Business Intelligence', category: 'analytics', level: 'expert' },
-  { name: 'Data Mining', category: 'analytics', level: 'advanced' },
+  { name: 'Machine Learning', category: 'analytics' },
+  { name: 'Statistical Analysis', category: 'analytics' },
+  { name: 'Linear Regression', category: 'analytics' },
+  { name: 'Logistic Regression', category: 'analytics' },
+  { name: 'Predictive Modeling', category: 'analytics' },
+  { name: 'Business Intelligence', category: 'analytics' },
+  { name: 'Data Mining', category: 'analytics' },
 
   // Cloud & Tools
-  { name: 'Microsoft Office', category: 'cloud', level: 'expert' },
-  { name: 'Excel', category: 'cloud', level: 'expert' },
-  { name: 'Power Query', category: 'cloud', level: 'advanced' },
-  { name: 'DAX', category: 'cloud', level: 'advanced' }
+  { name: 'Microsoft Office', category: 'cloud' },
+  { name: 'Excel', category: 'cloud' },
+  { name: 'Power Query', category: 'cloud' },
+  { name: 'DAX', category: 'cloud' }
 ];
 
 export const skillCategories = {

@@ -14,7 +14,6 @@ export interface Project {
 export interface Skill {
   name: string;
   category: 'programming' | 'database' | 'visualization' | 'analytics' | 'cloud';
-  level: 'beginner' | 'intermediate' | 'advanced' | 'expert';
 }
 
 export interface ContactForm {
