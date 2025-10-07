@@ -40,7 +40,7 @@ const Home: React.FC = () => {
               Hugo Rodriguez Tristancho
             </h1>
             <h2 className="text-xl md:text-2xl lg:text-3xl font-medium text-primary-600">
-              Data & Business Analytics Student
+              Data & Business Analytics
             </h2>
             <p className="text-lg md:text-xl text-secondary-500">
               Loyola University Chicago & Loyola University of Andalusia
@@ -51,10 +51,7 @@ const Home: React.FC = () => {
             variants={itemVariants}
             className="text-lg md:text-xl text-secondary-600 max-w-3xl mx-auto leading-relaxed"
           >
-            Transforming complex data into actionable business insights through advanced analytics,
-            machine learning, and compelling visualizations. Currently pursuing dual degrees while
-            gaining hands-on experience at Amazon and Microsoft, passionate about leveraging AI
-            and data science to solve real-world business challenges.
+            This portfolio showcases my projects in data analysis, visualization, and data-driven solutions. It is regularly updated with new work that reflects my learning, exploration of advanced techniques, and practical use of data tools. Each project highlights insights drawn from data and their real-world applications.
           </motion.p>
 
           <motion.div
@@ -90,12 +87,11 @@ const Home: React.FC = () => {
             Core Expertise
           </h3>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { name: 'Power BI', icon: '📊' },
               { name: 'Python', icon: '🐍' },
-              { name: 'SQL', icon: '🗃️' },
-              { name: 'Machine Learning', icon: '🤖' }
+              { name: 'SQL', icon: '🗃️' }
             ].map((skill, index) => (
               <motion.div
                 key={skill.name}

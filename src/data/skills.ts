@@ -2,10 +2,10 @@ import { Skill } from '../types';
 
 export const skills: Skill[] = [
   // Programming
-  { name: 'Python', category: 'programming', level: 'advanced' },
-  { name: 'R', category: 'programming', level: 'advanced' },
-  { name: 'SQL', category: 'programming', level: 'expert' },
-  { name: 'JavaScript', category: 'programming', level: 'intermediate' },
+  { name: 'Python', category: 'programming'},
+  { name: 'R', category: 'programming'},
+  { name: 'SQL', category: 'programming'},
+  { name: 'JavaScript', category: 'programming'},
 
   // Database
   { name: 'Database Design', category: 'database', level: 'advanced' },

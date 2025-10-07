@@ -52,7 +52,7 @@ const About: React.FC = () => {
           >
             <h1 className="text-4xl md:text-5xl font-bold">About Me</h1>
             <p className="text-xl md:text-2xl text-primary-100 max-w-3xl mx-auto">
-              Passionate about transforming data into meaningful insights
+              Discover my journey and experiences so far.
             </p>
           </motion.div>
         </div>

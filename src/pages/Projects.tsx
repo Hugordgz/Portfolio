@@ -4,7 +4,7 @@ import { projects } from '../data/projects';
 import ProjectCard from '../components/ProjectCard';
 
 const Projects: React.FC = () => {
-  const [filter, setFilter] = useState<'all' | 'powerbi' | 'python' | 'sql'>('all');
+  const [filter, setFilter] = useState<'all' | 'powerbi' | 'python' | 'sql'>('powerbi');
 
   const filteredProjects = filter === 'all' 
     ? projects 
@@ -84,37 +84,12 @@ const Projects: React.FC = () => {
             animate="visible"
             className="space-y-8"
           >
-            {/* Featured Projects */}
-            {filter === 'all' && (
-              <div className="space-y-6">
-                <motion.h2
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5 }}
-                  className="text-2xl md:text-3xl font-bold text-secondary-900"
-                >
-                  Featured Projects
-                </motion.h2>
-                <div className="grid md:grid-cols-2 gap-8">
-                  {projects
-                    .filter(project => project.featured)
-                    .map((project, index) => (
-                      <ProjectCard
-                        key={project.id}
-                        project={project}
-                        index={index}
-                      />
-                    ))}
-                </div>
-              </div>
-            )}
-
-            {/* All Projects */}
+            {/* Projects */}
             <div className="space-y-6">
               <motion.h2
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5, delay: 0.1 }}
+                transition={{ duration: 0.5 }}
                 className="text-2xl md:text-3xl font-bold text-secondary-900"
               >
                 {filter === 'all' ? 'All Projects' : `${filterButtons.find(b => b.key === filter)?.label} Projects`}

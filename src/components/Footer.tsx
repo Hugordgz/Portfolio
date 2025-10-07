@@ -42,8 +42,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <h3 className="text-xl font-bold">Hugo Rodriguez Tristancho</h3>
             <p className="text-secondary-300">
-              Data & Business Analytics student passionate about transforming data into actionable business insights.
-              Currently pursuing dual degrees at Loyola University with experience at Amazon and Microsoft.
+              Data & Business Analytics student passionate about turning data into actionable insights. Currently studying at Loyola University Chicago and Loyola University of Andalusia.
             </p>
           </div>
 
