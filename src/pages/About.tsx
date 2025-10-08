@@ -81,28 +81,28 @@ const About: React.FC = () => {
               <div className="space-y-4">
                 <div className="border-l-4 border-primary-500 pl-4">
                   <h4 className="font-semibold text-secondary-900">US/UE Dual Business Degree, BBA</h4>
-                  <p className="text-secondary-600">Loyola University Chicago • 2023-2027 • GPA: 3.92</p>
+                  <p className="text-secondary-600">Loyola University Chicago • 2022-2027 • GPA: 3.92</p>
                   <p className="text-sm text-secondary-500">Dean's List: Fall 2024 & Spring 2025</p>
                 </div>
                 <div className="border-l-4 border-primary-500 pl-4">
                   <h4 className="font-semibold text-secondary-900">Bachelor of Data and Business Analytics + BBA</h4>
-                  <p className="text-secondary-600">Loyola University of Andalusia, Spain • 2023-2027 • GPA: 3.67</p>
+                  <p className="text-secondary-600">Loyola University of Andalusia, Spain • 2022-2027 • GPA: 3.67</p>
                   <p className="text-sm text-secondary-500">Top of Class 2023/2024 • Honors in Accounting, Economy, Data Visualization, Databases</p>
                 </div>
                 <div className="border-l-4 border-green-500 pl-4">
                   <h4 className="font-semibold text-secondary-900">Area Manager Intern</h4>
                   <p className="text-secondary-600">Amazon • San Bernardino, CA • Jun-Aug 2025</p>
-                  <p className="text-sm text-secondary-500">Led $1M+ project, managed 200+ employees</p>
+                  <p className="text-sm text-secondary-500">Led $1M+ project, supported operations for 200+ employees</p>
                 </div>
-                <div className="border-l-4 border-blue-500 pl-4">
+                <div className="border-l-4 border-green-500 pl-4">
                   <h4 className="font-semibold text-secondary-900">CX Research Intern</h4>
                   <p className="text-secondary-600">Microsoft • Remote • Feb-Jun 2025</p>
                   <p className="text-sm text-secondary-500">AI & Customer Experience Strategy Research</p>
                 </div>
                 <div className="border-l-4 border-yellow-500 pl-4">
                   <h4 className="font-semibold text-secondary-900">Awards & Recognition</h4>
-                  <p className="text-secondary-600">Best Speaker - Loyola Accounting Debate XIII (2023)</p>
-                  <p className="text-sm text-secondary-500">Academic Excellence Awards from Universidad Loyola & SAFA Funcadia</p>
+                  <p className="text-secondary-600">Alpha Sigma Nu Member</p>
+                  <p className="text-sm text-secondary-500">Other Academic Excellence Awards</p>
                 </div>
               </div>
             </motion.div>
